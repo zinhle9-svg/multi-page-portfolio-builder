@@ -5,12 +5,12 @@ import Projects from './pages/Projects';
 function Projectinfo() {
   const projectData = [
     {
-      name: 'AI Dashboard',
+      name: 'Fire assay',
       startDate: '2025-01-01',
       endDate: '2025-06-01',
     },
     {
-      name: 'Website Redesign',
+      name: 'Building an iphone',
       startDate: '2024-09-15',
       endDate: '2025-01-15',
     },
