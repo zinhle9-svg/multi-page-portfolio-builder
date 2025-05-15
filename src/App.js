@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 
 
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-100">

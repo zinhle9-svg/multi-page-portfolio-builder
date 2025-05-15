@@ -3,7 +3,7 @@ import projectimage from "../images/project1.jpg";
 function Home() {
   return (
     <div className="text-4xl font-bold">
-      <div className="max-w-7xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4 italic">
         Welcome to Metallurgy
         <img 
           src={projectimage} 
