@@ -8,7 +8,14 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Thank you!");
+    if (!name || !email || !message) {
+    alert('Please fill in all fields.');
+    return;
+  }
+    alert("THANK YOU!");
+    setName('');
+  setEmail('');
+  setMessage('');
   };
 
   return (

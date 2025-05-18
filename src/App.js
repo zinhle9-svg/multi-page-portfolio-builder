@@ -3,7 +3,7 @@
 import { Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
-import Projectinfo from './ProjectInfo';
+import Projects from '../src/pages/Projects';
 
 
 
@@ -27,7 +27,7 @@ function App() {
 <Routes>
   <Route path='/' element={<Home/>} />
   <Route path='/contact' element={<Contact/>}/>
-  <Route path='/projects' element={<Projectinfo/>}/>
+  <Route path='/projects' element={<Projects/>}/>
 </Routes>
 
 </div>

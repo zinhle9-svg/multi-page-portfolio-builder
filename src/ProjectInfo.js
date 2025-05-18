@@ -1,37 +1,25 @@
 
 
-function Projectinfo() {
-  const projectData = [
-    {
-      name: 'Fire assay',
-      startDate: '2025-01-01',
-      endDate: '2025-06-01',
-    },
-    {
-      name: 'Building an iphone',
-      startDate: '2024-09-15',
-      endDate: '2025-01-15',
-    },
-  ];
 
-  return (
-    <div className="p-6">
-      {projectData.map((project, index) => (
-        <div
-          key={index}
-          className="flex space-x-4 mb-4 p-4 bg-gray-100 rounded shadow"
-        >
-          <p className="text-xl font-semibold">Project Name:</p>
-          <p className="text-xl">{project.name}</p>
-          <p className="text-xl font-semibold">Start Date:</p>
-          <p className="text-xl">{project.startDate}</p>
-          <p className="text-xl font-semibold">End Date:</p>
-          <p className="text-xl">{project.endDate}</p>
-          
-        </div>
-      ))}
-    </div>
-  );
-}
+// const projectData = [
+//   {
+//     name: 'Fire Assay Analysis',
+//     startDate: '2025-01-01',
+//     endDate: '2025-06-01',
+//     description: 'A classical method for precious metal analysis using high-temperature furnaces and fluxes.',
+//   },
+//   {
+//     name: 'iPhone Component Alloy',
+//     startDate: '2024-09-15',
+//     endDate: '2025-01-15',
+//     description: 'Developing custom alloys for mobile hardware, ensuring both durability and conductivity.',
+//   },
+//   {
+//     name: 'Recycling Rare Earth Metals',
+//     startDate: '2025-03-01',
+//     endDate: '2025-10-01',
+//     description: 'Exploring sustainable metallurgy techniques to extract and reuse rare earth metals from e-waste.',
+//   },
+// ];
 
-export default Projectinfo;
+// export default projectData;
