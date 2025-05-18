@@ -1,4 +1,4 @@
-// Projectinfo.js
+
 
 function Projectinfo() {
   const projectData = [
@@ -27,6 +27,7 @@ function Projectinfo() {
           <p className="text-xl">{project.startDate}</p>
           <p className="text-xl font-semibold">End Date:</p>
           <p className="text-xl">{project.endDate}</p>
+          
         </div>
       ))}
     </div>
