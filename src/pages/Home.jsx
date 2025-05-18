@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-white text-gray-800">
+    <div className="min-h-screen bg-white bg-gradient-to-br from-gray-100 to-white text-gray-800">
       
       <section className="relative">
         <img 
