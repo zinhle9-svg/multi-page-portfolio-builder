@@ -1,4 +1,3 @@
-import Projectinfo from "../ProjectInfo";
 
 
 function Projects({ name, startDate, endDate }) {
@@ -10,7 +9,6 @@ function Projects({ name, startDate, endDate }) {
       <p className="text-xl">{startDate}</p>
       <p className="text-xl font-semibold">End Date:</p>
       <p className="text-xl">{endDate}</p>
-      <Projectinfo />
     </div>
   );
 }

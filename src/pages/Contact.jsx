@@ -8,13 +8,13 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log({ name, email, message });
+    console.log("Thank you!");
   };
 
   return (
     <div className="p-6 max-w-md mx-auto bg-red-300 rounded-md shadow-md">
       <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
-      <form onSubmit={handleSubmit} className="flex flex-col space-y-4">
+      <form  className="flex flex-col space-y-4">
         <div>
           <label className="block text-lg font-medium mb-1">Name</label>
           <input
@@ -45,7 +45,7 @@ function Contact() {
           ></textarea>
         </div>
 
-        <button
+        <button onClick={handleSubmit}
           type="submit"
           className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
         >

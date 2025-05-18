@@ -1,6 +1,4 @@
-
-import React from 'react';
-import Projects from './pages/Projects';
+// Projectinfo.js
 
 function Projectinfo() {
   const projectData = [
@@ -19,12 +17,17 @@ function Projectinfo() {
   return (
     <div className="p-6">
       {projectData.map((project, index) => (
-        <Projects
+        <div
           key={index}
-          name={project.name}
-          startDate={project.startDate}
-          endDate={project.endDate}
-        />
+          className="flex space-x-4 mb-4 p-4 bg-gray-100 rounded shadow"
+        >
+          <p className="text-xl font-semibold">Project Name:</p>
+          <p className="text-xl">{project.name}</p>
+          <p className="text-xl font-semibold">Start Date:</p>
+          <p className="text-xl">{project.startDate}</p>
+          <p className="text-xl font-semibold">End Date:</p>
+          <p className="text-xl">{project.endDate}</p>
+        </div>
       ))}
     </div>
   );
