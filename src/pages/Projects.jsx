@@ -32,6 +32,13 @@ const projectData = [
     description: 'Javascript, REACT and CSS',
     link: 'https://digitalcontact.netlify.app/'
   },
+    {
+    name: 'Quiz game',
+    startDate: '2025-05-05',
+    endDate: '2025-05-11',
+    description: 'Javascript, REACT and CSS',
+    link: 'https://quzgame.netlify.app/'
+  },
 ];
   return (
     <div className="min-h-screen bg-white text-gray-800">
