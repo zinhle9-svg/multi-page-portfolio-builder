@@ -1,34 +1,45 @@
 
-import projectpic from "../images/project2.jpg"
+
+import coding from "../images/Coding.png"
 
 function Projects() {
 const projectData = [
   {
-    name: 'Fire Assay Analysis',
-    startDate: '2025-01-01',
-    endDate: '2025-06-01',
-    description: 'A classical method for precious metal analysis using high-temperature furnaces and fluxes.',
+    name: 'Resume building',
+    startDate: '2025-02-17',
+    endDate: '2025-02-26',
+    description: 'HTML and CSS',
+    link: 'https://gleaming-arithmetic-3ff43d.netlify.app/'
   },
   {
-    name: 'iPhone Component Alloy',
-    startDate: '2024-09-15',
-    endDate: '2025-01-15',
-    description: 'Developing custom alloys for mobile hardware, ensuring both durability and conductivity.',
+    name: 'Diamond Tech',
+    startDate: '2025-02-24',
+    endDate: '2025-02-28',
+    description: 'HTML and CSS',
+    link: 'https://grand-kelpie-18a210.netlify.app/'
   },
   {
-    name: 'Recycling Rare Earth Metals',
-    startDate: '2025-03-01',
-    endDate: '2025-10-01',
-    description: 'Exploring sustainable metallurgy techniques to extract and reuse rare earth metals from e-waste.',
+    name: 'Fashionova',
+    startDate: '2025-03-03',
+    endDate: '2025-03-10',
+    description: 'HTML and CSS',
+    link: 'https://lively-gaufre-19d373.netlify.app/'
+  },
+    {
+    name: 'Digital contact card',
+    startDate: '2025-05-02',
+    endDate: '2025-05-09',
+    description: 'Javascript, REACT and CSS',
+    link: 'https://digitalcontact.netlify.app/'
   },
 ];
   return (
     <div className="min-h-screen bg-white text-gray-800">
       
       <section className="bg-gradient-to-r from-pink-600 to-red-500 py-12 text-white text-center">
-        <h1 className="text-5xl font-bold mb-4">Our Projects</h1>
-        <p className="text-lg max-w-2xl mx-auto">
-          Dive into our ongoing and completed projects that advance metallurgical science through cutting-edge research, innovation, and industrial application.
+        <h1 className="text-5xl font-bold mb-4">My Projects</h1>
+        <p className="text-lg max-w-2xl mx-auto">While I haven’t had the chance to work in the industry yet, I’ve built
+           multiple functional and visually engaging applications that reflect real-world development practices.
         </p>
       </section>
 
@@ -40,7 +51,7 @@ const projectData = [
             className="bg-gray-100 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 duration-300"
           >
             <img
-              src={projectpic}
+              src={coding}
               alt={project.name}
               className="w-full h-48 object-cover"
             />
@@ -51,6 +62,7 @@ const projectData = [
   <span className="font-medium">End:</span> {project.endDate}
 </p>
               <p className="text-gray-700 mb-4">{project.description}</p>
+          <a href={project.link} className="text-blue-500 hover:underline">see project</a>
             
             </div>
           </div>

@@ -12,7 +12,7 @@ function Contact() {
     alert('Please fill in all fields.');
     return;
   }
-if (!email.includes('@' && '.co.za' && 'gmail.com')) {
+if (!email.includes('@') && email.indexOf("@") > 0) {
   alert('Please enter a valid email address.');
   return;
 }
@@ -24,7 +24,7 @@ if (!email.includes('@' && '.co.za' && 'gmail.com')) {
 
   return (
     <div className="p-6 max-w-md mx-auto bg-red-300 rounded-md shadow-md">
-      <h1 className="text-2xl font-bold mb-4">Contact Us</h1>
+      <h1 className="text-2xl font-bold mb-4">Contact Me</h1>
       <form  className="flex flex-col space-y-4">
         <div>
           <label className="block text-lg font-medium mb-1">Name</label>
