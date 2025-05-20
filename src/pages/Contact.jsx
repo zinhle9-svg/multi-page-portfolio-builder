@@ -12,7 +12,7 @@ function Contact() {
     alert('Please fill in all fields.');
     return;
   }
-if (!email.includes('@') && email.indexOf("@") === 0) {
+if (!email.includes('@') || email.indexOf("@") === 0) {
   alert('Please enter a valid email address.');
   return;
 }
